@@ -3,9 +3,9 @@
 Computed tomography (CT) is a widely-used diagnostic image modality routinely used for assessing anatomical tissue characteristics. However, non-standardized imaging protocols are commonplace, which poses a fundamental challenge in large-scale cross-center CT image analysis. This project propsed a GAN based model to standardized the CT images in terms of texture features. 
 
 # Paper: 
-https://www.biorxiv.org/content/10.1101/460188v1 
+https://arxiv.org/abs/2004.01307
 
-# model Architechture:
+# Model Architechture:
 
 In generator part, a U-net is used and the traditional CNN is used in discriminator. But insted of having single generator and discriminator, the GANai has multiple G and D. At the end of the training best G and D is finalized.
 
